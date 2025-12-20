@@ -1,0 +1,48 @@
+Education : 
+1. PG diploma in advanced computing (PG-DAC) from Sunbeam Institute of Information Technology, Hinjewadi, Grade A
+2.Bachelor Of Engineering
+Information Technology | Smt. Kashibai Navale College of Engineering, Pune CGPA: 8.60
+3. SSC (X) | Rajeev Gandhi Military School, Buldhana 91.20%
+
+Technical Skills :
+
+Programming Languages: Java, SQL, JavaScript
+Frontend Technologies: React.js, HTML5, CSS3, Tailwind Css, BootStrap  
+Backend Technologies: Spring Boot, RESTful APIs, Spring MVC    
+Databases & ORM: MySQL, JPA, Hibernate  
+Architecture & Design: Layered Architecture (Controller–Service–Repository), 
+                       Monolithic & Microservices Architecture, SOLID Principles   
+Tools & IDEs: Eclipse, IntelliJ IDEA, VS Code, Postman  
+Version Control & Collaboration: Git, GitHub
+
+Projects : 
+
+1. RentARide - Car Rental Management System (Monolithic Full-Stack Application)
+React.js | Spring Boot | MySQL | Spring Security | Razorpay | Cloudinary
+
+Developed a full-stack monolithic web application to manage the complete car rental workflow for administrators and customers, including user registration, vehicle browsing, booking management, and secure payments.
+
+Built a responsive single-page frontend using React.js, focusing on reusable components, clean UI/UX, efficient state management with hooks and props, and smooth navigation using React Router.
+
+Implemented a layered backend architecture (Controller–Service–Repository) using Spring Boot, exposing RESTful APIs for all CRUD operations.
+
+Applied SOLID principles and clean code practices to build a maintainable and scalable system.
+
+Implemented global exception handling using @RestControllerAdvice and input validation using @Valid, providing meaningful error responses and improved debugging.
+
+2. TurfNation – Turf Management System (Microservices Architecture)
+React.js | Spring Boot | Microservices | MySQL | Kafka | Redis |  Eureka | API Gateway | Config Server
+
+Designed multiple Spring Boot microservices, each responsible for a specific business capability (AuthService,UserService,Booking,Payment,Notification,Review,HelpSupport), enabling independent development and scalability.
+
+Secured microservices using Spring Security with JWT-based authentication and role-based access control.
+
+Implemented a Kafka-based Notification Service to handle asynchronous events such as user registration and booking confirmations.
+
+Used Redis to temporarily store OTP values during user registration, which are sent to users via email for verification.
+
+Sent email notifications to users on successful registration and after booking confirmation, including booking and turf details.
+
+Used MySQL with JPA and Hibernate for persistent data storage, ensuring transactional integrity within individual services.
+
+Followed SOLID principles, clean code practices, centralized exception handling, and input validation to build a robust and maintainable system.
